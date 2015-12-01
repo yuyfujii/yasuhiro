@@ -31,3 +31,7 @@ module.exports = (robot) ->
 ､､しー-Ｊミ(.@)ｗｗｗｗｗｗｗｗｗｗｗ
 ```
     """
+robot.hear /おはよう/, (msg) ->
+    msg.send """
+    おはよう@#{msg.message.user.name}さん
+    """    
